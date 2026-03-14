@@ -21,4 +21,12 @@
 ### Установка зависимостей
 
 > `pip install -r requirements.txt`
+ 
+### Запустить тесты с генерацией Allure-отчёта
+
+> `pytest --alluredir=allure-results test_cart_functionality.py`
+
+### Сгенерировать и просмотреть отчёт Allure
+
+> `allure serve allure-results`
 
